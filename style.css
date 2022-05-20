@@ -1,0 +1,118 @@
+/* Colors and fonts */
+
+body {
+	background-color: CCF3EE;
+	color:  242F9B;
+	font-family:  'Lora', serif;
+	font-size: 19px;
+    font-weight: 300;
+}
+h1, h2, h3 {
+	font-family:  'Koulen', cursive;
+}
+
+h1 {
+	font-size: 70px;
+	font-weight: 800;
+}
+
+h2 {
+	color: lightskyblue;
+
+}
+
+
+a {
+	font-family:  'Koulen', cursive;
+	text-decoration: none;
+    color: F9CEEE;
+    font-weight: bold;
+
+}
+a:hover{
+	color: F806CC;
+}
+
+
+
+
+
+
+/* Custom design with class */
+
+.container {
+	width: 700px;
+	margin:  30px auto;
+}
+
+@media (max-width: 760px) {
+
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+
+	.container {
+		width: 400px;
+	}
+}
+
+.card-white {
+	background-color: white;
+	padding: 60px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin:  20px 0px;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.btn-pink {
+	background-color: F9CEEE;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+.btn-pink:hover {
+    background-color: F806CC;
+	color: white;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 50px;
+	color: F9CEEE;
+}
+
+.list-inline i:hover {
+	color: F806CC;
+}
+
+/*Design adjustments using id () */
+
+#introduction p {
+	margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
